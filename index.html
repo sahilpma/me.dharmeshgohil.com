@@ -139,20 +139,6 @@
             </div>
             <div class="actionsC">
                <div class="actionBtn">
-                  <a target="_blank" rel="noopener noreferrer" aria-label="call" style="background-color: rgb(255, 255, 255);" href="tel: +91 8652125111">
-                     <div class="icon action">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                           <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"></path>
-                        </svg>
-                     </div>
-                  </a>
-                  <p class="text">
-                     Call
-                  </p>
-               </div>
-            </div>
-            <div class="actionsC">
-               <div class="actionBtn">
                   <a target="_blank" rel="noopener noreferrer" aria-label="email" style="background-color: rgb(255, 255, 255);" href="mailto:hello@dharmeshgohil.com">
                      <div class="icon action">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -225,17 +211,23 @@
             <h2 class="section text">Bio</h2>
             <div>
                <div class="content text" style="background-color: rgb(255, 255, 255);">
-                  <p class="textC ziacard">
-                     He founded GRAPHISION PRIVATE LIMITED, focusing on cutting-edge innovative solutions. GRAPHISION aimed to revolutionise the industry by integrating technologies such as AR, VR, MR, XR, IoT, gesture control, cloud solutions, and artificial intelligence to meet clients' diverse needs. <br>
-                     Driven by a passion for technology and a commitment to education, he established ARKIDZOO PRIVATE LIMITED in May 2018. Specialising in edutainment products for preschoolers, recognised by Prime Minister of India Shri Narendra Modi in the year 2022. ARKIDZOO aims to make learning stress-free and enjoyable by combining traditional tools with innovative technologies like augmented reality and artificial intelligence.<br>
-                     He is the In-country Partner (India) for the Professional Exchange Program - U.S. Department of State At Oklahoma University, he showcased his expertise in promoting educational opportunities and fostering collaborations between India and the USA.<br>
+                  </br>
+				  <p class="textC ziacard" align="justify" style="text-indent: 30px">
+                     He founded GRAPHISION PRIVATE LIMITED, focusing on cutting-edge innovative solutions. GRAPHISION aimed to revolutionise the industry by integrating technologies such as AR, VR, MR, XR, IoT, gesture control, cloud solutions, and artificial intelligence to meet clients' diverse needs.
+                     </p>
+					 <p class="textC ziacard" align="justify" style="text-indent: 30px">
+					 Driven by a passion for technology and a commitment to education, he established ARKIDZOO PRIVATE LIMITED in May 2018. Specialising in edutainment products for preschoolers, ARKIDZOO aimed to make learning stress-free and enjoyable by combining traditional tools with innovative technologies like augmented reality and artificial intelligence.
+                     </p>
+					 <p class="textC ziacard" align="justify" style="text-indent: 30px">
+					 He is the In-country Partner (India) for the Professional Exchange Program - U.S. Department of State At Oklahoma University, he showcased his expertise in promoting educational opportunities and fostering collaborations between India and the USA.
                   </p>
+				  </br>
                </div>
             </div>
          </div>
       </main>
       <footer class="text" style="background-color: rgb(0, 0, 0);">
-         Powered by
+         Copyright
          <a href="https://dharmeshgohil.com/" target="_blank" rel="noopener noreferrer" class="text">DG</a>
       </footer>
       <script src="./qrcode.min.js"></script><script>let m=document.getElementById("modal"),c=document.getElementById("close"),ki=document.getElementById("keyInfo"),cv=document.getElementById("copyView"),curl=document.getElementById("copyURL"),qrv=document.getElementById("qrView"),qr=document.getElementById("qr"),s=document.getElementById("share"),sqr=document.getElementById("showQR"),sk=document.getElementById("showKey");function tC(e){"2rem"==e.style.top?(e.style.visibility="visible",e.style.top="0px",e.style.opacity=1):(e.style.top="2rem",e.style.opacity=0,setTimeout(()=>{e.style.visibility="hidden"},200))}function dN(e){e.style.display="none"}window.addEventListener("load",()=>{document.querySelector("#topActions").style.display="flex",qr.innerHTML=new QRCode({content:window.location.href,container:"svg-viewbox",join:!0,ecl:"L",padding:0}).svg()}),navigator.canShare?s.addEventListener("click",()=>{navigator.share({title:document.title,text:"You can view my Digital Business Card here:",url:window.location.href})}):s.addEventListener("click",()=>{tC(m),cv.style.display="flex",dN(qrv),ki&&dN(ki)}),sqr.addEventListener("click",()=>{tC(m),qrv.style.display="block",dN(cv),ki&&dN(ki)}),sk&&sk.addEventListener("click",()=>{tC(m),ki&&(ki.style.display="flex"),dN(cv),dN(qrv)}),c.addEventListener("click",()=>tC(m)),curl.addEventListener("click",async()=>{let e=curl.querySelectorAll(".action")[1];await navigator.clipboard.writeText(window.location.href).then(t=>{e.innerText="Copied",setTimeout(()=>{e.innerText="Copy URL"},1e3)})});</script><script>let pC=document.querySelectorAll(".pCtrl"),pP=document.querySelectorAll(".playPause"),srcs=document.querySelectorAll(".source");srcs.forEach(e=>{e.style.pointerEvents="none",e.removeAttribute("controls")}),pC.forEach((e,l)=>{e.style.display="flex";let r=e.querySelector(".currentTime"),s=e.querySelector(".seekBar"),t=e.querySelector(".playPause"),a=t.querySelector(".play"),c=t.querySelector(".pause");srcs[l].addEventListener("timeupdate",()=>{let e=srcs[l].currentTime,t=100/srcs[l].duration*e;s.value=t,100==t&&(s.value=0,a.style.display="block",c.style.display="none");let o=Math.floor(e/60),y=Math.floor(e%60);o.toString().length<2&&(o="0"+o),y.toString().length<2&&(y="0"+y),r.value=o+":"+y}),s.addEventListener("change",()=>{srcs[l].currentTime=srcs[l].duration*(parseInt(s.value)/100)}),t.addEventListener("click",()=>{srcs[l].paused?(srcs.forEach((e,r)=>{l!=r&&(e.paused||e.pause())}),pP.forEach((e,l)=>{let r=e.querySelector(".play"),s=e.querySelector(".pause");r.style.display="block",s.style.display="none"}),srcs[l].play(),a.style.display="none",c.style.display="block"):(srcs[l].pause(),c.style.display="none",a.style.display="block")})});</script>
